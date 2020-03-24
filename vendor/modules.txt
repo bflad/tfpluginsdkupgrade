@@ -52,17 +52,42 @@ github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
 github.com/aws/aws-sdk-go/service/s3
 github.com/aws/aws-sdk-go/service/sts
 github.com/aws/aws-sdk-go/service/sts/stsiface
-# github.com/bflad/tfproviderlint v0.12.0
+# github.com/bflad/tfproviderlint v0.14.0
 ## explicit
+github.com/bflad/tfproviderlint/helper/analysisfixtest
 github.com/bflad/tfproviderlint/helper/analysisutils
 github.com/bflad/tfproviderlint/helper/astutils
 github.com/bflad/tfproviderlint/helper/terraformtype/helper/schema
 github.com/bflad/tfproviderlint/helper/terraformtype/helper/validation
+github.com/bflad/tfproviderlint/helper/terraformtype/terraform
+github.com/bflad/tfproviderlint/passes/R007
+github.com/bflad/tfproviderlint/passes/R008
+github.com/bflad/tfproviderlint/passes/V002
+github.com/bflad/tfproviderlint/passes/V003
+github.com/bflad/tfproviderlint/passes/V004
+github.com/bflad/tfproviderlint/passes/V005
+github.com/bflad/tfproviderlint/passes/V006
+github.com/bflad/tfproviderlint/passes/V007
+github.com/bflad/tfproviderlint/passes/V008
 github.com/bflad/tfproviderlint/passes/commentignore
+github.com/bflad/tfproviderlint/passes/helper/schema/customizedifffuncinfo
+github.com/bflad/tfproviderlint/passes/helper/schema/providertypeassertexpr
+github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatapartialcallexpr
+github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatapartialselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatasetpartialcallexpr
+github.com/bflad/tfproviderlint/passes/helper/schema/resourcedatasetpartialselectorexpr
 github.com/bflad/tfproviderlint/passes/helper/schema/schemainfo
 github.com/bflad/tfproviderlint/passes/helper/schema/schemamapcompositelit
 github.com/bflad/tfproviderlint/passes/helper/validation/cidrnetworkselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/iprangecallexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/iprangeselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/singleipcallexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/singleipselectorexpr
 github.com/bflad/tfproviderlint/passes/helper/validation/validatejsonstringselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/validatelistuniquestringsselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/validateregexpselectorexpr
+github.com/bflad/tfproviderlint/passes/helper/validation/validaterfc3339timestringselectorexpr
+github.com/bflad/tfproviderlint/passes/terraform/resourceproviderselectorexpr
 # github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d
 github.com/bgentry/go-netrc/netrc
 # github.com/bgentry/speakeasy v0.1.0
@@ -117,8 +142,6 @@ github.com/hashicorp/hcl/v2/json
 ## explicit
 github.com/hashicorp/terraform-plugin-sdk/helper/hashcode
 github.com/hashicorp/terraform-plugin-sdk/helper/schema
-github.com/hashicorp/terraform-plugin-sdk/helper/structure
-github.com/hashicorp/terraform-plugin-sdk/helper/validation
 github.com/hashicorp/terraform-plugin-sdk/httpclient
 github.com/hashicorp/terraform-plugin-sdk/internal/addrs
 github.com/hashicorp/terraform-plugin-sdk/internal/configs
@@ -175,7 +198,6 @@ github.com/posener/complete/cmd
 github.com/posener/complete/cmd/install
 github.com/posener/complete/match
 # github.com/sergi/go-diff v1.0.0
-## explicit
 github.com/sergi/go-diff/diffmatchpatch
 # github.com/spf13/afero v1.2.2
 github.com/spf13/afero
